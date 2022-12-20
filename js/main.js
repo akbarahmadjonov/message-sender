@@ -20,7 +20,7 @@ function msg() {
       }, 500);
     }
 
-    elResult.textContent = elInput.value.toUpperCase();
+    elResult.textContent = `You typed: ${elInput.value.toUpperCase()}`;
     elInput.value = "";
   });
 
